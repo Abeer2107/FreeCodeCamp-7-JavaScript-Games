@@ -1,0 +1,58 @@
+body{
+    margin: 30px auto;
+    width: 500px;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+h1{
+    text-align: center;
+    font-family: "Lucida handwriting";
+}
+
+h3{
+    margin: 10px 50px;
+}
+
+.grid{
+    display: fleX;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 450px;
+    border: 1px solid black;
+    margin: auto;
+    background-image: url(Images/Backgrounds/darkPurple.png);
+}
+
+.grid div{
+    height: 30px;
+    width: 30px;
+}
+
+.shooter {
+    background-image: url("Images/PNG/playerShip2_blue.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.invader { 
+    background-image: url("Images/PNG/Enemies/enemyRed1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.boom {
+    background-image: url("Images/PNG/Lasers/laserBlue09.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.laser {
+    background-image: url("Images/PNG/Lasers/laserBlue08.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

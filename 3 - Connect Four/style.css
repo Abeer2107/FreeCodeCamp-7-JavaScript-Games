@@ -1,0 +1,39 @@
+body{
+    margin: 50px auto;
+    width: 500px;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+h1{
+    text-align: center;
+    font-family: "Lucida handwriting";
+}
+
+h3{
+    margin: 10px 50px;
+}
+
+.grid{
+    display: fleX;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 300px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.grid div{
+    height: 50px;
+    width: 50px;
+}
+
+.player-one{
+    background-color: blue;
+    border-radius: 50px;
+}
+
+.player-two{
+    background-color: red;
+    border-radius: 50px;
+}

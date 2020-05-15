@@ -1,0 +1,24 @@
+body{
+    margin: 50px auto;
+    width: 500px;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+h1{
+    text-align: center;
+    font-family: "Lucida handwriting";
+}
+
+h3{
+    margin: 10px 50px;
+}
+
+.grid{
+    display: fleX;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    margin: auto;
+}

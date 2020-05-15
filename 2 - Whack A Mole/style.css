@@ -1,0 +1,36 @@
+body{
+    margin: 50px auto;
+    width: 500px;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+h1{
+    text-align: center;
+    font-family: "Lucida handwriting";
+}
+
+h3{
+    margin: 10px 50px;
+}
+
+.grid{
+    display: fleX;
+    flex-wrap: wrap;
+    width: 306px;
+    height: 306px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(96, 24, 212);
+}
+
+.mole{
+    background-image: url('Images/JellySquash/Jellies/NoShadow/Jelly (4).png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
